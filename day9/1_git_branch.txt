@@ -10,3 +10,8 @@
     => step 2 and step 3 can be obtained from single command i.e. create a new branch and jumps to that
        newly created branch with all the codes from the existing branch
 
+5. git merge <branch name>
+   =>Merges the code from the branch name provided to the current branch
+
+6. git pull
+    =>pulls the code from remote branch to local branch
