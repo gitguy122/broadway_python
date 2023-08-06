@@ -4,3 +4,4 @@ Merge conflict arises if we try to merge one branch to another where certain lin
  a = 1
  b = 2
 print (a + b)
+d = 2
