@@ -1,0 +1,23 @@
+# There may be different projects in your system with different requirement of packages
+# your one project may require pandas version 2.1 whereas  other project may require pandas version 2.4
+# So to  solve this problem we can use the concept  of virtual environment
+
+# Virtual environment is a separate  environment in your system where we can install packages
+# in isolated form for each project.
+
+# Important Commands
+1. python -m venv <name_of_the_environment(venv)>
+           = creates a new virtual environment
+2. venv\Scripts\activated (for windows devices in command prompt)
+   source venv/bin/activate ( for mac devices)
+           =>activates the virtual environment
+3. deactivate
+       => it  deactivates the virtual environment
+4. pip install <package_name>
+      => if installs the package to the environment
+5. pip freeze
+     => it creates a file "requirements.txt" consisting  of  all the installed packages in the environment
+6. pip  freeze > requirements.txt
+     => it created a files consisting  of all packages
+7. pip install -r requirements.txt
+     => recursively installs all the packages from requirements.txt file

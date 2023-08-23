@@ -1,9 +1,9 @@
 ##### List Indexing #####
 # list Indexing starts from 0 for  forward indexing and -1 for the backward
 # Indexing
-vowels = ['a', e ',' i ',' o' ,'u']
-print(vowels[0]) #  => 'a'
-print(vowels[2]) #  => 'i'
+vowels = ['a', 'e', 'i', 'o' , 'u']
+print(vowels[0])  #  => 'a'
+print(vowels[2])  #  => 'i'
 # print (vowels[5]) # It raises IndexError
 
 
